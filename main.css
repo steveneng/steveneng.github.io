@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+}
+
+.splash{
+  height: 100%;
+  /* background-color: #00b0eb; */
+  background: linear-gradient(168deg, #00b0eb, #6af5ec)
+}
+
+.viewbutton {
+  background-color: #b0eb00;
+  color: white;
+}
+
+.viewbutton:hover{
+  color: 	white;
+  background-color:#3aeb00;
+}
+
+.navbar {
+  background-color: transparent;
+  width: 100%;
+}
+
+a.nav-link:hover{
+  border-bottom: solid #b0eb00 1px;
+}
+
+.title{
+  font-weight: lighter;
+}
+
+
+.shader{
+  box-shadow: 5px 5px 4px grey;
+  border-radius: 10px;
+}
+
+#doge{
+  margin-top:30px;
+  
+}
+
+
+
+.shader{
+  box-shadow: 5px 5px 4px grey;
+  border-radius: 10px;
+}
+
+.footer{
+  background-color: #00b0eb;
+  margin-top: 30px;
+}
+
+.card:hover{
+  opacity: .5;
+  cursor: pointer;
+}
+
+.card:active{
+  animation-delay: 1s;
+  width:90%; 
+}
