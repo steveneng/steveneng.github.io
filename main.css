@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  background-color: #f5f5f5
 }
 
 .splash{
@@ -73,6 +74,12 @@ li>a{
 
 a.nav-link:hover{
   border-bottom: solid #b0eb00 1px;
+}
+
+.modules {
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 2px 3px rgba(0,0,0,.2);
+  padding: 30px;
+  background-color: white;
 }
 
 .active{
