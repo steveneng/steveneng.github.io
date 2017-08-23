@@ -28,6 +28,10 @@ a.nav-link:hover{
   border-bottom: solid #b0eb00 1px;
 }
 
+.active{
+  border-bottom: solid 1px #B0EB00;
+}
+
 .title{
   font-weight: lighter;
 }
@@ -38,7 +42,7 @@ a.nav-link:hover{
   border-radius: 10px;
 }
 
-#doge{
+#projects{
   margin-top:30px;
   
 }
@@ -46,7 +50,7 @@ a.nav-link:hover{
 
 
 .shader{
-  box-shadow: 5px 5px 4px grey;
+  box-shadow: 5px 5px 9px grey;
   border-radius: 10px;
 }
 
@@ -56,11 +60,53 @@ a.nav-link:hover{
 }
 
 .card:hover{
-  opacity: .5;
   cursor: pointer;
+  transition: ease 0.4s;
+  box-shadow: 2px 2px 4px grey;
 }
 
 .card:active{
-  animation-delay: 1s;
-  width:90%; 
+  box-shadow: 2px 2px 4px grey;
+}
+
+.works {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
 }
