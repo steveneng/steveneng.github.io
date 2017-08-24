@@ -1,5 +1,14 @@
 $(document).ready(function(){
-    $('.btn').click(function(){
-        alert('doge')
-    })
+   if($('a').hasClass('active')){
+       $('a.active').css('color','#00b0eb')
+   };
+   $(window).on('scroll',function(){
+       if($(".splash").height()-30<$(window).scrollTop()){
+           console.log('doge');
+           $('nav').css('background-color','#64F1EC')
+       }
+       else{
+        $('nav').css('background-color','transparent')
+       }
+   })
 })
