@@ -10,6 +10,16 @@ body {
   background: linear-gradient(168deg, #00b0eb, #6af5ec)
 }
 
+.contacts{
+  background: linear-gradient(168deg, #00b0eb, #6af5ec);
+  color: white;
+}
+
+.pointer {
+  top: 12em;
+  color: white;
+  opacity: 0;
+}
 
 .navbar {
   background-color: transparent;
@@ -41,8 +51,8 @@ div>h1{
 }
 
 hr{
-  max-width: 60px;
-  background-color: #CF4647;
+  max-width: 80px;
+  background-color: #00b0eb;
   height: 5px;
 }
 
