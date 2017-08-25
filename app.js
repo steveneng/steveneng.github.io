@@ -36,10 +36,10 @@ $(document).ready(function(){
         }
             $('.descriptions').empty();
             $('.descriptions').append(descriptions[g]).hide();
-            $('.descriptions').fadeIn(900);
+            $('.descriptions').fadeIn(1000);
             g++;
             console.log(g)
-    },1900);
+    },2500);
 
    $('.arrow').hover(function () {
         $(".pointer").css("opacity","1");

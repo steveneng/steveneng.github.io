@@ -16,7 +16,7 @@ body {
 }
 
 .pointer {
-  top: 12em;
+  top: 10em;
   color: white;
   opacity: 0;
 }
@@ -44,6 +44,10 @@ div>h1{
    /* transform: rotate(0.3rad);/ */
    /* transform: rotate(3grad); */ 
    /* transform: rotate(.03turn);  */
+}
+
+#symbol{
+  width: 35%;
 }
 
 .services {
@@ -102,7 +106,7 @@ a.nav-link:hover{
 }
 
 .arrow{
-  top: 12em;
+  top: 9em;
   color: white;
 }
 
