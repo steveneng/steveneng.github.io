@@ -19,8 +19,8 @@ $(document).ready(function(){
         $('nav').css('background-color','transparent')
        }
    });
-   var title= ("{Hi, I'm Steven}").split("");
-   var descriptions= ["I am a frontend developer","I am a coffee enthusiest","I am an owner of a lazy dog","I am a teacher","I am a mathematician","I am a guitarist","I am a vegan crossfitter","JK","Let's Talk"];
+   var title= ("Hi, I'm Steven").split("");
+   var descriptions= ["I am a frontend developer","I am a coffee enthusiast","I am an owner of a lazy dog","I am a teacher","I am a mathematician","I am a guitarist","I am a vegan crossfitter","JK LOL","Let's Talk"];
    var i=0;
    var g=0;
    setInterval(function(){
@@ -28,17 +28,18 @@ $(document).ready(function(){
            $('.title').append(title[i]);
            i++
        }
-   },80);
+   },100);
 
    setInterval(function(){
         if(g>=descriptions.length){
             g=0;
         }
             $('.descriptions').empty();
-            $('.descriptions').append(descriptions[g]);
+            $('.descriptions').append(descriptions[g]).hide();
+            $('.descriptions').fadeIn(900);
             g++;
             console.log(g)
-    },2000);
+    },1900);
 
    $('.arrow').hover(function () {
         $(".pointer").css("opacity","1");
