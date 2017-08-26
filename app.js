@@ -38,14 +38,19 @@ $(document).ready(function(){
             $('.descriptions').append(descriptions[g]).hide();
             $('.descriptions').fadeIn(1000);
             g++;
-            console.log(g)
     },2500);
 
    $('.arrow').hover(function () {
         $(".pointer").css("opacity","1");
-        console.log('doge')
        }, function () {
         $(".pointer").css("opacity","0");
+       }
+   );
+
+   $('#symbol').hover(function () {
+        $(this).attr("src", "lib/svg/key.svg")
+       }, function () {
+           // out
        }
    );
 
