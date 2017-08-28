@@ -41,16 +41,9 @@ $(document).ready(function(){
     },2500);
 
    $('.arrow').hover(function () {
-        $(".pointer").css("opacity","1");
+        $(".pointer").animate({opacity:1})
        }, function () {
-        $(".pointer").css("opacity","0");
-       }
-   );
-
-   $('#symbol').hover(function () {
-        $(this).attr("src", "lib/svg/key.svg")
-       }, function () {
-           // out
+        $(".pointer").animate({opacity:0});
        }
    );
 
