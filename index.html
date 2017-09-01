@@ -10,6 +10,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="main.css">
       <link rel="stylesheet" href="lib/octicons.css">
+      <link rel="stylesheet" href="bootstrap-social.css">
    </head>
    <body>
       <div class="splash">
@@ -61,21 +62,21 @@
       </div>
       <div class="container text-center services modules">
          <h1>
-             Skills 
+            Skills 
          </h1>
          <hr>
          <div class="row">
-            <div class="col-md-4">
+            <div class="Skills col-md-4">
                <img id="symbol" src="lib/svg/browser.svg" alt="symbol">
                <h2>UX/UI</h2>
                <p>Built with responsive design to ensure a smooth UI for the best experience</p>
             </div>
-            <div class="col-md-4">
+            <div class="Skills col-md-4">
                <img id="symbol" src="lib/svg/star.svg" src="" alt="symbol">
                <h2>Cutting Edge</h2>
                <p>Using the latest frameworks and libraries such as React</p>
             </div>
-            <div class="col-md-4">
+            <div class="Skills col-md-4">
                <img id="symbol" src="lib/svg/keyboard.svg" style="margin-top:17px" src="" alt="symbol">
                <h2>Hand Made</h2>
                <p>Always crafted by hand for pure customization :D</p>
@@ -83,147 +84,141 @@
          </div>
       </div>
       <!-- works page -->
-      <div class="services container modules text-center " id="portfolio">
-         <h1> Works</h1>
+      <div class="services container modules" id="portfolio">
+         <h1 class="text-center"> Works</h1>
          <hr>
-           <div class="container">
+         <div class="container text-center">
             <img class="project" src="img/axtion_thumb.png" alt="AI driven board" data-toggle="modal" data-target=".bd-axtion-modal-lg">
-               <div class="modal fade bd-axtion-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                      <div class="modal-content">
-                        <div class="container">
-                            <h1>Axtion</h1>
-                            <hr>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img class="img-fluid" src="img/ax.png" alt="">
-                                </div>
-                                <div class="col-md-6"> 
-                                    <p>
-                                        ...
-                                    </p>
-                                    <button class="btn">
-                                        <a target="blank" href="https://slackmood.herokuapp.com/"></a>
-                                    </button>
-                                    <a href="#" class="fa fa-github"></a>
-                                </div>                
-                            </div>                
+            <div class="modal fade bd-axtion-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="container">
+                        <h1 class="titles">Axtion</h1>
+                        <hr>
+                        <div class="row project_content">
+                           <div class="col-md-6">
+                              <img class="img-fluid" src="img/ax.png" alt="">
+                           </div>
+                           <div class="col-md-6">
+                              <p>
+                                 Axtion is an AI driven dashboard that analyzes the slack channel using IBM waton's NLU technology. This project was built by my team in a cuny Hackathon and we were ranked honorable mention for it.
+                              </p>
+                              <ul>
+                                  <li>Firebase</li>
+                                  <li>Jquery</li>
+                                  <li>Chart.js</li>
+                              </ul>
+                              <button class="btn"> 
+                              <a target="blank" href="https://slackmood.herokuapp.com/">Live Demo</a>
+                              </button>
+                              <a target="blank" href="#"  class="btn btn-social-icon btn-github">                   <span class="fa fa-github"></span>                   </a>
+                           </div>
                         </div>
-                      </div>
-                    </div>
+                     </div>
                   </div>
-               <img class="project" src="img/n_thumbnail.png" alt="Frogger Clone" data-toggle="modal" data-target=".bd-frogger-modal-lg">
-
-               <div class="modal fade bd-frogger-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                      <div class="modal-content">
-                        <div class="container">
-                            <h1>Arcader</h1>
-                            <hr>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img class="img-fluid" src="img/ax.png" alt="">
-                                </div>
-                                <div class="col-md-6"> 
-                                    <p>
-                                        ...
-                                    </p>
-                                    <button class="btn">
-                                        <a target="blank" href="https://slackmood.herokuapp.com/"></a>
-                                    </button>
-                                    <a href="#" class="fa fa-github"></a>
-                                </div>                
-                            </div>                
+               </div>
+            </div>
+            <img class="project" src="img/n_thumbnail.png" alt="Frogger Clone" data-toggle="modal" data-target=".bd-frogger-modal-lg">
+            <div class="modal fade bd-frogger-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="container">
+                        <h1 class="titles">Arcader</h1>
+                        <hr>
+                        <div class="row project_content">
+                           <div class="col-md-6">
+                              <img class="img-fluid" src="img/ax.png" alt="">
+                           </div>
+                           <div class="col-md-6">
+                              <p>
+                                 ...
+                              </p>
+                              <button class="btn">
+                              <a target="blank" href="https://slackmood.herokuapp.com/"></a>
+                              </button>
+                              <a target="blank" href="#"  class="btn btn-social-icon btn-github">                   <span class="fa fa-github"></span>                   </a>
+                           </div>
                         </div>
-                      </div>
-                    </div>
+                     </div>
                   </div>
-
-
-
-
-
-               <img class="project" src="img/u_thumb.png" alt="Coffe Map" data-toggle="modal" data-target=".bd-neighboor-modal-lg">
-
-
-               <div class="modal fade bd-neighboor-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                      <div class="modal-content">
-                        <div class="container">
-                            <h1>Get Coffeed</h1>
-                            <hr>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img class="img-fluid" src="img/ax.png" alt="">
-                                </div>
-                                <div class="col-md-6"> 
-                                    <p>
-                                        ...
-                                    </p>
-                                    <button class="btn">
-                                        <a target="blank" href="https://slackmood.herokuapp.com/"></a>
-                                    </button>
-                                    <a href="#" class="fa fa-github"></a>
-                                </div>                
-                            </div>                
+               </div>
+            </div>
+            <img class="project" src="img/u_thumb.png" alt="Coffe Map" data-toggle="modal" data-target=".bd-neighboor-modal-lg">
+            <div class="modal fade bd-neighboor-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="container">
+                        <h1 class="titles">Get Coffeed</h1>
+                        <hr>
+                        <div class="row project_content">
+                           <div class="col-md-6">
+                              <img class="img-fluid" src="img/ax.png" alt="">
+                           </div>
+                           <div class="col-md-6">
+                              <p>
+                                 ...
+                              </p>
+                              <button class="btn">
+                              <a target="blank" href="https://slackmood.herokuapp.com/"></a>
+                              </button>
+                              <a target="blank" href="#"  class="btn btn-social-icon btn-github">                   <span class="fa fa-github"></span>                   </a>
+                           </div>
                         </div>
-                      </div>
-                    </div>
+                     </div>
                   </div>
-
-
-
-               <img class="project" src="img/fractal.png" alt="Fractal Dance" data-toggle="modal" data-target=".bd-fractal-modal-lg">
-               <div class="modal fade bd-fractal-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                      <div class="modal-content">
-                        <div class="container">
-                            <h1>Fractal Dance</h1>
-                            <hr>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img class="img-fluid" src="img/ax.png" alt="">
-                                </div>
-                                <div class="col-md-6"> 
-                                    <p>
-                                        ...
-                                    </p>
-                                    <button class="btn">
-                                        <a target="blank" href="https://slackmood.herokuapp.com/"></a>
-                                    </button>
-                                    <a href="#" class="fa fa-github"></a>
-                                </div>                
-                            </div>                
+               </div>
+            </div>
+            <img class="project" src="img/fractal.png" alt="Fractal Dance" data-toggle="modal" data-target=".bd-fractal-modal-lg">
+            <div class="modal fade bd-fractal-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="container">
+                        <h1 class="titles">Fractal Dance</h1>
+                        <hr>
+                        <div class="row project_content">
+                           <div class="col-md-6">
+                              <img class="img-fluid" src="img/ax.png" alt="">
+                           </div>
+                           <div class="col-md-6">
+                              <p>
+                                 ...
+                              </p>
+                              <button class="btn">
+                              <a target="blank" href="https://slackmood.herokuapp.com/"></a>
+                              </button>
+                              <a target="blank" href="#"  class="btn btn-social-icon btn-github">                   <span class="fa fa-github"></span>                   </a>
+                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>               
-               <img class="project" src="img/spice.png" alt="Indian Spice" data-toggle="modal" data-target=".bd-indian-modal-lg">
-               <div class="modal fade bd-indian-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                      <div class="modal-content">
-                        <div class="container">
-                            <h1>Spiced</h1>
-                            <hr>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img class="img-fluid" src="img/ax.png" alt="">
-                                </div>
-                                <div class="col-md-6"> 
-                                    <p>
-                                        ...
-                                    </p>
-                                    <button class="btn">
-                                        <a target="blank" href="https://slackmood.herokuapp.com/"></a>
-                                    </button>
-                                    <a href="#" class="fa fa-github"></a>
-                                </div>                
-                            </div>                
-                        </div>
-                      </div>
-                    </div>
+                     </div>
                   </div>
-           </div>
+               </div>
+            </div>
+            <img class="project" src="img/spice.png" alt="Indian Spice" data-toggle="modal" data-target=".bd-indian-modal-lg">
+            <div class="modal fade bd-indian-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                     <div class="container">
+                        <h1 class="titles">Spiced</h1>
+                        <hr>
+                        <div class="row project_content">
+                           <div class="col-md-6">
+                              <img class="img-fluid" src="img/ax.png" alt="">
+                           </div>
+                           <div class="col-md-6">
+                              <p>
+                                 ...
+                              </p>
+                              <button class="btn">
+                              <a target="blank" href="https://slackmood.herokuapp.com/"></a>
+                              </button>
+                              <a target="blank" href="#"  class="btn btn-social-icon btn-github">                   <span class="fa fa-github"></span>                   </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
       <!-- about page -->
       <div class="py-5  section" id="about">
@@ -271,24 +266,37 @@
             </div>
          </div>
       </div>
+      <div class="container modules">
+         <div class="text-center">
+            <h1>Let's Get in Touch</h1>
+            <hr>
+            <p>Email: steven.e11373@gmail.com</p>
+            <p>Mobile: 718-673-7085</p>
+            <div class=" text-center">
+               <p>Social Media:
+                  <a target="blank" href="https://www.linkedin.com/in/engsteven/" class="btn btn-social-icon btn-linkedin">
+                  <span class="fa fa-linkedin"></span>
+                  </a>
+                  <a target="blank" href="https://github.com/steveneng"  class="btn btn-social-icon btn-github">
+                  <span class="fa fa-github"></span>
+                  </a>
+               </p>
+            </div>
+         </div>
+      </div>
       <!-- footer -->
       <div id="contacts" class="row contacts">
          <div class="container" >
-           <div class="row">
-                <div class="col-md-6 breadcrumb" style="background:transparent">
-                        <a class="breadcrumb-item" href="#">Steven Eng</a>
-                        <a class="breadcrumb-item" href="https://www.linkedin.com/in/engsteven/">Linkedin</a>
-                        <a class="breadcrumb-item" href="https://github.com/steveneng">Github</a>
-                        <a class="breadcrumb-item" href="https://profiles.udacity.com/p/6694789008">Udacity</a>
-                        <a class="breadcrumb-item" href="#">2017</a>
-                     </div>
-                     <div class="social col-md-6">
-                            <a href="#" class="fa fa-linkedin"></a>
-                         <a href="#" class="fa fa-github"></a>
-                         <a href="#" class="fa fa-google"></a>
-                     </div>
-                  </div>
-           </div>
+            <div class="row">
+               <div class="col-md-6 breadcrumb" style="background:transparent">
+                  <a class="breadcrumb-item" href="#">Steven Eng</a>
+                  <a target="blank" class="breadcrumb-item" href="https://www.linkedin.com/in/engsteven/">Linkedin</a>
+                  <a target="blank" class="breadcrumb-item" href="https://github.com/steveneng">Github</a>
+                  <a target="blank" class="breadcrumb-item" href="https://profiles.udacity.com/p/6694789008">Udacity</a>
+                  <a class="breadcrumb-item" href="#">2017</a>
+               </div>
+            </div>
+         </div>
       </div>
       <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
