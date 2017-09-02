@@ -41,15 +41,6 @@ $(document).ready(function() {
         g++;
     }, 1500);
 
-
-    $('ul.navbar-nav').find('a').click(function(){
-        var $href = $(this).attr('href');
-        var $anchor = $('#'+$href).offset();
-        window.scrollTo($anchor.left,$anchor.top);
-        return false;
-    });
-
-
     $('.arrow').hover(function() {
         $(".pointer").animate({
             opacity: 1

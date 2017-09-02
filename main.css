@@ -34,6 +34,10 @@ body {
   transition: ease .5s;
 }
 
+.btn{
+  background-color: #00b0eb;
+}
+
 .social{
   text-align: center;
 }
@@ -114,6 +118,10 @@ hr{
   max-width: 80px;
   background-color: #00b0eb;
   height: 5px;
+}
+
+.project_screen{
+  border: 1px solid lightgray;
 }
 
 .project_title{
