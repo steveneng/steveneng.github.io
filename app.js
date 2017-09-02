@@ -49,7 +49,7 @@ $(document).ready(function() {
         return false;
     });
 
-    ('.titles').removeClass('text-center');
+
     $('.arrow').hover(function() {
         $(".pointer").animate({
             opacity: 1
