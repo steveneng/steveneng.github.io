@@ -37,9 +37,9 @@ $(document).ready(function() {
         }
         $('.descriptions').empty();
         $('.descriptions').append(descriptions[g]).hide();
-        $('.descriptions').fadeIn(1000);
+        $('.descriptions').fadeIn(500);
         g++;
-    }, 2500);
+    }, 1500);
 
 
     $('ul.navbar-nav').find('a').click(function(){
