@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     });
     $(window).on('scroll', function() {
-        if ($(".splash").height() -  $('nav').height() < $(window).scrollTop()) {
+        if ($(".splash").height() -  $('nav').height()-16 < $(window).scrollTop()) {
             $('nav').css('background-color', '#64F1EC');
             $('nav').css('box-shadow','0px 0px 20px 0px rgba(0, 0, 0, 0.15)');
         } else {
