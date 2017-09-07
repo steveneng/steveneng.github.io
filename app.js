@@ -19,7 +19,7 @@ $(document).ready(function() {
     $(window).on('scroll', function() {
         if ($(".splash").height() -  $('nav').height()-16 < $(window).scrollTop()) {
             $('nav').css('background-color', '#64F1EC');
-            $('nav').css('box-shadow','0px 0px 20px 0px rgba(0, 0, 0, 0.15)');
+            $('nav').css('box-shadow','0 2px 5px 0 rgba(0,0,0,.26)');
         } else {
             $('nav').css('background-color', 'transparent');
             $('nav').css('box-shadow','');
