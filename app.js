@@ -1,14 +1,19 @@
 $(document).ready(function() {
     $('a').css('color', 'white')
     if ($('a').hasClass('active')) {
-        $('a.active').css('color', '#00b0eb')
+        $('a.active').css({'color':'#00b0eb',
+                            'box-shadow':'0 2px 5px 0 rgba(0,0,0,.26)'
+
+                        })
     };
     $('li>a').click(function() {
         console.log('doge');
-        $('a.active').css('color', 'white')
+        $('a.active').css({'color':'white',
+                            'box-shadow':'0px 0px 0px transparent'})
         $('a.active').removeClass('active');
         $(this).addClass('active');
-        $(this).css('color', '#00b0eb')
+        $(this).css({'color':'#00b0eb',
+                    'box-shadow':'0 2px 5px 0 rgba(0,0,0,.26)'})
 
     });
     $(window).on('scroll', function() {
