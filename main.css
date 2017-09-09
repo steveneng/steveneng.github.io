@@ -19,10 +19,18 @@ body {
   top: 9em;
   color: white;
   opacity: 0;
+  font-weight: lighter;
+  text-shadow: 0 2px 5px rgba(0,0,0,.26)
 }
 
 .breadcrumb{
   margin-top: 15px;
+  text-shadow: 1px 2px 5px rgba(0,0,0,.20);
+  color: white
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+  color: lightgray;
 }
 
 .Skills{
@@ -166,6 +174,8 @@ li>a{
 
 a.nav-link{
   border-bottom: solid transparent 1px;
+  font-weight: lighter;
+  text-shadow: 1px 2px 5px rgba(0,0,0,.20);
 }
 
 a.nav-link:hover{
@@ -183,15 +193,9 @@ a.nav-link:hover{
   background-color:  white;
 }
 
-
 .title, .descriptions{
   font-weight: lighter;
   text-shadow: 1px 2px 5px rgba(0,0,0,.26);
-}
-
-.shader{
-  box-shadow: 5px 5px 4px rgba(0,0,0,.26);
-  border-radius: 10px;
 }
 
 .arrow{
@@ -202,10 +206,6 @@ a.nav-link:hover{
 
 .arrow:hover{
   cursor: pointer;
-}
-
-.shader{
-  box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 2px 3px rgba(0,0,0,.2);
 }
 
 .footer{
