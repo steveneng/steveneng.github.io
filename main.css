@@ -111,8 +111,7 @@ div>h1{
   box-shadow:0 2px 5px 0 rgba(0,0,0,.26)
 }
 
-.carousel-item{
-  border: 1px solid lightgrey;
+#carouselExampleIndicators{
   box-shadow:0 2px 5px 0 rgba(0,0,0,.26);
 }
 
@@ -184,7 +183,7 @@ a.nav-link:hover{
 }
 
 .modules {
-  box-shadow:0 2px 5px 0 rgba(0,0,0,.26);
+  box-shadow:1px 2px 5px rgba(0,0,0,.26);
   padding: 30px;
   background-color: white;
 }
@@ -201,7 +200,7 @@ a.nav-link:hover{
 .arrow{
   top: 8em;
   color: white;
-  text-shadow: 0px 2px 5px grey;
+  text-shadow: 1px 2px 5px rgba(0,0,0,.26);
 }
 
 .arrow:hover{
@@ -262,6 +261,12 @@ a.nav-link:hover{
   }
   to {
       opacity: 1;
+  }
+}
+
+@media (max-width: 990px) {
+  .active{
+    padding: 10px !important
   }
 }
 

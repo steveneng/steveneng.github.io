@@ -7,7 +7,6 @@ $(document).ready(function() {
                         })
     };
     $('li>a').click(function() {
-        console.log('doge');
         $('a.active').css({'color':'white',
                             'box-shadow':'0px 0px 0px transparent'})
         $('a.active').removeClass('active');
