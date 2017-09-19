@@ -34,7 +34,7 @@ body {
 }
 
 .Skills{
-  padding: 20px;
+  padding: 5%;
 }
 
 .btn{
@@ -278,6 +278,9 @@ a.nav-link:hover{
   .project{
     width: 180px;
     height: 180px;
+  }
+  .Skills{
+    padding: 20%
   }
 }
 
