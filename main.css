@@ -34,12 +34,7 @@ body {
 }
 
 .Skills{
-  border: 1px solid transparent;
-}
-
-.Skills:hover{
-  border: 1px solid lightblue;
-  transition: ease .5s;
+  padding: 20px;
 }
 
 .btn{
