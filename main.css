@@ -111,10 +111,6 @@ div>h1{
   box-shadow:0 2px 5px 0 rgba(0,0,0,.26)
 }
 
-#carouselExampleIndicators{
-  box-shadow:0 2px 5px 0 rgba(0,0,0,.26);
-}
-
 .project:hover{
   cursor: pointer;
   opacity: .5;
