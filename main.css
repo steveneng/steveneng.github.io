@@ -269,6 +269,9 @@ a.nav-link:hover{
     width: 250px;
     height: 250px;
   }
+  .Skills{
+    padding: 25%
+  }
 }
 
 @media (max-width:420px) {
@@ -280,7 +283,7 @@ a.nav-link:hover{
     height: 180px;
   }
   .Skills{
-    padding: 20%
+    padding: 25%
   }
 }
 
