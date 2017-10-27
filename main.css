@@ -256,7 +256,7 @@ a.nav-link:hover{
 }
 
 @media (max-width: 990px) {
-  .active{
+  a.active{
     padding: 10px !important
   }
 }
