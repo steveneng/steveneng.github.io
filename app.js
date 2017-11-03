@@ -25,7 +25,7 @@ $(document).ready(function() {
         }
     });
     var title = ("Hi, I'm Steven").split("");
-    var descriptions = ["I am a frontend developer", "I am a coffee enthusiast", "I am an owner of a lazy dog", "I am a teacher", "I am a mathematician", "I am a guitarist", "Let's Talk"];
+    var descriptions = ["I am a frontend developer", "I am a coffee enthusiast", "I have a lazy dog", "I am a teacher", "I am a mathematician", "I am a guitarist", "Let's Talk"];
     var i = 0;
     var g = 0;
     setInterval(function() {
